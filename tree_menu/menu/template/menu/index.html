@@ -1,0 +1,12 @@
+{% load tags %}
+
+{% if menus %}
+    <ul>
+        {% for menu in menus %}
+            <li><a href="{{ menu }}">{{ menu }}</a></li>
+        {% endfor %}
+    </ul>
+{% elif menu_name %}
+    <h2><a href="{% url 'menu' %}">Вернуться в главное меню</a></h2>
+    {% draw_menu menu_name menu_item %}
+{% endif %}

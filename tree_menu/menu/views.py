@@ -1,9 +1,17 @@
 from django.shortcuts import render
+from models import Menu
 
-# Create your views here.
 
 def index(request):
-    pass
+    return render(request, 'menu/index.html', {'menus': Menu.objects.all()})
 
-def create_menu(request, path):
-    pass
+def draw_menu(request, path):
+    modified_path = path.split('/')
+    assert len(modified_path) > 0, 'draw_menu function has an error'
+    context = {
+        'menu_name': modified_path[0],
+        'menu_item': modified_path[-1],
+    }
+    return render(
+        request, 'menu/index.html', context
+    )

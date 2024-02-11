@@ -1,8 +1,8 @@
 from django.urls import path
-from .views import index, create_menu
+from .views import index, draw_menu
 
 
 urlpatterns = [
     path('', index, name='menu'),
-    path('<path:path>/', create_menu, name='create_menu'),
+    path('<path:path>/', draw_menu, name='draw_menu'),
 ]

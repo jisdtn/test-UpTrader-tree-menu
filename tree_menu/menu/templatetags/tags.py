@@ -1,6 +1,7 @@
 from django import template
-from ..models import MenuItem
 from django.core.exceptions import ObjectDoesNotExist
+
+from ..models import MenuItem
 
 register = template.Library()
 

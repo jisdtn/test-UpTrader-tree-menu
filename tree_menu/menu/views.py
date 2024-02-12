@@ -1,9 +1,11 @@
 from django.shortcuts import render
-from models import Menu
+
+from .models import Menu
 
 
 def index(request):
     return render(request, 'menu/index.html', {'menus': Menu.objects.all()})
+
 
 def draw_menu(request, path):
     modified_path = path.split('/')

@@ -3,7 +3,7 @@
     {% if item.url %}
       <li><a href="{{ item.url }}">{{ item }}</a></li>
     {% elif item.title %}
-      <li><a href="{{ item.title }}">{{ item }}</a></li>
+      <li><a href="{{ item.name }}">{{ item }}</a></li>
     {% else %}
       {% include 'menu/menu.html' with menu=item %}
     {% endif %}

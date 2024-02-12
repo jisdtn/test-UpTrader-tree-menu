@@ -19,7 +19,7 @@ class Menu(models.Model):
 
 
 class MenuItem(models.Model):
-    title = models.CharField(
+    name = models.CharField(
         'Название элемента', max_length=100, unique=True
     )
     description = models.TextField(
@@ -37,7 +37,7 @@ class MenuItem(models.Model):
     )
 
     def __str__(self):
-        return self.title
+        return self.name
 
     class Meta:
         ordering = ('id',)

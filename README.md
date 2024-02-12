@@ -17,8 +17,7 @@
 > Он использует рекурсию для обхода иерархии меню и вставки подменю в соответствующие пункты меню.
 
 ![Снимок экрана 2024-02-12 в 12 43 48 PM](https://github.com/jisdtn/test-UpTrader-tree-menu/assets/122818010/83e2d5a2-b598-4392-b983-d5884a4532ad)
-
-![Снимок экрана 2024-02-12 в 12 43 38 PM](https://github.com/jisdtn/test-UpTrader-tree-menu/assets/122818010/47e53c3b-998c-40dc-a761-7fc1807a3b74)
+![Снимок экрана 2024-02-12 в 1 04 27 PM](https://github.com/jisdtn/test-UpTrader-tree-menu/assets/122818010/891939cc-9b9e-4e38-8662-bcee00f95ea8)
 
 ## Стэк
 

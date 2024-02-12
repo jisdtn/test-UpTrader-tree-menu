@@ -1,6 +1,7 @@
 # Tree-menu test project
 ## _Древовидное меню, реализованное на custom  template tag_
 
+[Техническое задание](https://docs.google.com/document/d/1XTnbcXhejyGB-I2cHRiiSZqI3ElHzqDJeetwHkJbTa8/edit)
 
 ## Особенности
 
